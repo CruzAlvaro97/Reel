@@ -92,9 +92,12 @@ class _ScreenReelsState extends State<ScreenReels> {
               label: '',
             ),
             BottomNavigationBarItem(
-              icon: Icon(
-                Icons.person,
-                size: 30,
+              icon: CircleAvatar(
+                backgroundImage: NetworkImage(
+                  'https://images.unsplash.com/photo-1616356257367-9cd4bf56a45e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+                  scale: 0.5,
+                ),
+                radius: 15,
               ),
               label: '',
             ),
